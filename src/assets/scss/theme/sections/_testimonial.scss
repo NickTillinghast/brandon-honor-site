@@ -1,7 +1,8 @@
 .testimonial {
 
 	.tiles-item-inner {
-		background: get-color(dark, 2);		
+		background: get-color(light, 1);	
+        border: solid black 1px;	
 	}
 }
 
@@ -36,7 +37,7 @@
 	color: get-color(secondary, 3);
 
 	a {
-        color: get-color(secondary, 3);
+        color: red;
         text-decoration: none;
 
         &:hover {
