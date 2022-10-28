@@ -68,14 +68,14 @@ const Hero = ({
                 First lesson is free and the skills you'll learn are priceless!!  With Brandon as your guide you will learn exactly what you want in a comfortable and fun atmosphere.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
+                {/* <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
                     Get started
                   </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
                     View on Github
                   </Button>
-                </ButtonGroup>
+                </ButtonGroup> */}
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/drumplaceholder.jpg')}
                 alt="Hero"
                 width={896}
                 height={504} />
@@ -98,7 +98,8 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
+            video="https://www.youtube.com/embed/3XjJerSKViY"
+            // <iframe width="424" height="238" src="https://www.youtube.com/embed/3XjJerSKViY" title="DrummersRule! YouTube Welcome Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             videoTag="iframe" />
         </div>
       </div>
