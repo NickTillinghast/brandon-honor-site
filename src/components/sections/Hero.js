@@ -25,17 +25,17 @@ const Hero = ({
   ...props
 }) => {
 
-  const [videoModalActive, setVideomodalactive] = useState(false);
+  // const [videoModalActive, setVideomodalactive] = useState(false);
 
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
+  // const openModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(true);
+  // }
 
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }
+  // const closeModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(false);
+  // }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -65,8 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                First lesson is free and the skills you'll learn are priceless!!  With Brandon as your guide you will learn exactly what you want in a comfortable and fun atmosphere.
-              </p>
+                Best Lessons for the Best Price              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 {/* <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
@@ -79,7 +78,7 @@ const Hero = ({
               </div>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
               data-video="https://player.vimeo.com/video/174002812"
               href="#0"
@@ -100,7 +99,7 @@ const Hero = ({
             handleClose={closeModal}
             video="https://www.youtube.com/embed/3XjJerSKViY"
             // <iframe width="424" height="238" src="https://www.youtube.com/embed/3XjJerSKViY" title="DrummersRule! YouTube Welcome Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            videoTag="iframe" />
+            videoTag="iframe" /> */}
         </div>
       </div>
     </section>

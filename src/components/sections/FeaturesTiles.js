@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import { GiDrum } from 'react-icons/gi'
 import Image from '../elements/Image';
+import ButtonGroup from '../elements/ButtonGroup';
+import Button from '../elements/Button';
+
+import Modal from '../elements/Modal';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -24,6 +28,17 @@ const FeaturesTiles = ({
   ...props
 }) => {
 
+  const [videoModalActive, setVideomodalactive] = useState(false);
+
+  const openModal = (e) => {
+    e.preventDefault();
+    setVideomodalactive(true);
+  }
+
+  const closeModal = (e) => {
+    e.preventDefault();
+    setVideomodalactive(false);
+  }
   const outerClasses = classNames(
     'features-tiles section',
     topOuterDivider && 'has-top-divider',
@@ -45,8 +60,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Instructor with Expansive Knowledge and Experience',
+    paragraph: 'Brandon has been teaching ever since he was 14 years old.  He teaches a wide variety of styles like Rock, Blues, Funk, Drumline, Hip-hop, Latin, Jazz, Metal, and Rudements is a family friendly environment'
   };
 
   return (
@@ -56,7 +71,31 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className="center-content text-color-primary" />
+          <div className="video-secton ">
+            <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+              <a
+                data-video="https://player.vimeo.com/video/174002812"
+                href="#0"
+                aria-controls="video-modal"
+                onClick={openModal}
+              >
+                <Image
+                  className="has-shadow"
+                  src={require('./../../assets/images/drumplaceholder.jpg')}
+                  alt="Hero"
+                  width={896}
+                  height={504} />
+              </a>
+            </div>
+            <Modal
+              id="video-modal"
+              show={videoModalActive}
+              handleClose={closeModal}
+              video="https://www.youtube.com/embed/3XjJerSKViY"
+              // <iframe width="424" height="238" src="https://www.youtube.com/embed/3XjJerSKViY" title="DrummersRule! YouTube Welcome Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              videoTag="iframe" />
+          </div>
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
@@ -72,10 +111,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8 text-color-primary">
-                    Robust Workflow
+                    History
                   </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Brett Fredrickson (Brandons Dad and teacher) was a degreed Musician from Musicians Institute, Brett played with groups such as Megadeath and Scotty Mishoe.
                   </p>
                 </div>
               </div>
@@ -84,10 +123,12 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="mb-16">
-                    <GiDrum
-
-                    />
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      alt="Features tile icon 01"
+                      width={64}
+                      height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -95,7 +136,7 @@ const FeaturesTiles = ({
                     Clean and fun atmosphere
                   </h4>
                   <p className="m-0 text-sm">
-                    You learn better when your smiling.
+                    You learn better when your smiling and comfortable
                   </p>
                 </div>
               </div>
@@ -114,10 +155,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Lessons
                   </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Lessons can be either 1/2 Hour or an Hour long.  We charge $15 dollars 1/2 hour and $30 and hour.
                   </p>
                 </div>
               </div>
@@ -136,10 +177,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Integrity
                   </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Brandonis so confident you will love his teaching he is offering 1 free lesson to new students.
                   </p>
                 </div>
               </div>
@@ -192,7 +233,7 @@ const FeaturesTiles = ({
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 }
 

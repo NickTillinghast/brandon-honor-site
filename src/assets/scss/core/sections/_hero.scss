@@ -12,7 +12,9 @@
 	> .hero-content + .hero-figure,
 	> .hero-figure + .hero-content {
 		margin-top: $hero--inner-padding-v_mobile;
+
 	}
+
 
 	> .hero-figure {
 
@@ -23,6 +25,12 @@
 			vertical-align: top;
 		}
 	}
+}
+
+.video-secton  {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
 }
 
 @include media( '<=medium' ) {
