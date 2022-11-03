@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
+// import ButtonGroup from '../elements/ButtonGroup';
+// import Button from '../elements/Button';
+// import Image from '../elements/Image';
+// import Modal from '../elements/Modal';
 
 const propTypes = {
   ...SectionProps.types
@@ -61,11 +61,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom text-color-primary" data-reveal-delay="200">
-              Brandon Frederickson Instructor For <span className="text-color-secondary">Everyone</span>
+              Brandon Frederickson Drum <span className="text-color-secondary">Instructor</span>
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Best Lessons for the Best Price              </p>
+              <h3 className="m-0 reveal-from-bottom" data-reveal-delay="400">Best Lessons for the Best Price</h3>
+              <h3 className="m-0 mb-16 reveal-from-bottom" data-reveal-delay="400">First Lesson is Free</h3>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 {/* <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">

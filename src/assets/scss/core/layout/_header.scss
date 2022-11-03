@@ -15,6 +15,7 @@
 	.brand {
 		margin-right: $header-nav--padding-h;
 		margin-top: 90px;
+		margin-bottom: 32px;
 	}	
 }
 
@@ -39,6 +40,7 @@
 		flex-grow: 1;
         white-space: nowrap;
 		margin-bottom: 0;
+		margin-top: 32px;
 
 		&:first-of-type {
 			flex-wrap: wrap;
@@ -123,6 +125,7 @@
 			        @include anchor-aspect(header-mobile);
 					padding-top: $header-nav--padding-v__mobile * 0.5;
 					padding-bottom: $header-nav--padding-v__mobile * 0.5;
+					white-space: pre-wrap;
 			    }
 			}
 

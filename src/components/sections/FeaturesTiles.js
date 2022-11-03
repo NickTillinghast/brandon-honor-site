@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import { GiDrum } from 'react-icons/gi'
+import { GiDrumKit, GiDrum } from 'react-icons/gi'
+
 import Image from '../elements/Image';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
+// import ButtonGroup from '../elements/ButtonGroup';
+// import Button from '../elements/Button';
 
 import Modal from '../elements/Modal';
 
@@ -82,7 +83,7 @@ const FeaturesTiles = ({
               >
                 <Image
                   className="has-shadow"
-                  src={require('./../../assets/images/drumplaceholder.jpg')}
+                  src={require('./../../assets/images/drumplaceholder1.jpg')}
                   alt="Hero"
                   width={896}
                   height={504} />
@@ -102,11 +103,17 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
+                    <GiDrumKit
+                      style={{
+                        width: '100px',
+                        height: '100px',
+                        color: '#fff'
+                      }} />
+                    {/* <Image
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 01"
                       width={64}
-                      height={64} />
+                      height={64} /> */}
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -124,19 +131,26 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
+                    <GiDrum
+                      style={{
+                        width: '100px',
+                        height: '100px',
+                        color: '#fff'
+                      }}
+                    />
+                    {/* <Image
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 01"
                       width={64}
-                      height={64} />
+                      height={64} /> */}
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8 text-color-primary">
-                    Clean and fun atmosphere
+                    Integrity
                   </h4>
                   <p className="m-0 text-sm">
-                    You learn better when your smiling and comfortable
+                    Brandonis so confident you will love his teaching he is offering 1 free lesson to new students.
                   </p>
                 </div>
               </div>
@@ -146,15 +160,16 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
-                      alt="Features tile icon 03"
-                      width={64}
-                      height={64} />
+                    <GiDrumKit
+                      style={{
+                        width: '100px',
+                        height: '100px',
+                        color: '#fff'
+                      }} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
+                  <h4 className="mt-0 mb-8 text-color-primary">
                     Lessons
                   </h4>
                   <p className="m-0 text-sm">
@@ -164,15 +179,16 @@ const FeaturesTiles = ({
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom">
+            {/* <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                      alt="Features tile icon 04"
-                      width={64}
-                      height={64} />
+                    <RiMusic2Line
+                      style={{
+                        width: '100px',
+                        height: '100px',
+                        color: '#fff'
+                      }} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -184,17 +200,18 @@ const FeaturesTiles = ({
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+            {/* <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                      alt="Features tile icon 05"
-                      width={64}
-                      height={64} />
+                    <BsMusicPlayer
+                      style={{
+                        width: '100px',
+                        height: '100px',
+                        color: '#fff'
+                      }} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -206,17 +223,18 @@ const FeaturesTiles = ({
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+            {/* <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
-                      width={64}
-                      height={64} />
+                    <RiMusic2Line
+                      style={{
+                        width: '100px',
+                        height: '100px',
+                        color: '#fff'
+                      }} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -228,7 +246,7 @@ const FeaturesTiles = ({
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>

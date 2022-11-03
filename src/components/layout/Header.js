@@ -108,14 +108,14 @@ const Header = ({
                 <div className="header-nav-inner">
                   <ul className={
                     classNames(
-                      'list-reset text-xs',
+                      'list-reset text-xs ',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                    <li>
+                    <li >
                       <Link to="#0" onClick={closeMenu}>Phone - 602-794-6086</Link>
                     </li>
-                    <li>
-                      <Link to="#0" onClick={closeMenu}>Address 5508 W. Michelle Dr. Glendale AZ, 85308</Link>
+                    <li >
+                      <a href="https://goo.gl/maps/aybpSTSjEqoPu2HD8" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Address 5508 W. Michelle Dr. Glendale AZ, 85308</a>
                     </li>
                   </ul>
                   {/* {!hideSignin &&
@@ -131,7 +131,7 @@ const Header = ({
             </>}
         </div>
       </div>
-    </header>
+    </header >
   );
 }
 
