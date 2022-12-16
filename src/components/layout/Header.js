@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
 
 const propTypes = {
@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li >
-                      <Link to="#0" onClick={closeMenu}>Phone - 602-794-6086</Link>
+                      <a href="tel:+16027946086" onClick={closeMenu}>Phone - 602-794-6086</a>
                     </li>
                     <li >
                       <a href="https://goo.gl/maps/aybpSTSjEqoPu2HD8" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Address 5508 W. Michelle Dr. Glendale AZ, 85308</a>
