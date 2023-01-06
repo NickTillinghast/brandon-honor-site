@@ -130,7 +130,7 @@ const FeaturesTiles = ({
                     History
                   </h4>
                   <p className="m-0 text-sm">
-                    Brett Fredrickson (Brandons Dad and teacher) was a degreed Musician from Musicians Institute, Brett played with groups such as Megadeath and Scotty Mishoe.
+                    Brett Fredrickson (Brandons Dad and teacher) was a degreed Musician from Musicians Institute, Brett played with groups such as Megadeth and Scotty Mishoe.
                   </p>
                 </div>
               </div>

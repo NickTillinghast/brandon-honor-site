@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li >
-                      <a href="tel:+16027946086" onClick={closeMenu}>Phone - 602-794-6086</a>
+                      <a href="tel:+16027996086" onClick={closeMenu}>Phone - 602-799-6086</a>
                     </li>
                     <li >
                       <a href="https://goo.gl/maps/aybpSTSjEqoPu2HD8" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Address 5508 W. Michelle Dr. Glendale AZ, 85308</a>
