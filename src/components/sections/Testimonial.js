@@ -75,10 +75,10 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Martha L</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
+                  {/* <span className="text-color-low"> / </span> */}
+                  {/* <span className="testimonial-item-link">
                     <a href="#0">Rock Drummer</a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -99,10 +99,10 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Landon D</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
+                  {/* <span className="text-color-low"> / </span> */}
+                  {/* <span className="testimonial-item-link">
                     <a href="#0">Rudement Drummer</a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -123,10 +123,10 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Jonathan</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
+                  {/* <span className="text-color-low"> / </span> */}
+                  {/* <span className="testimonial-item-link">
                     <a href="#0">Rock Drummer</a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
