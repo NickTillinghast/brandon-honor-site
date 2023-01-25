@@ -62,7 +62,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Instructor with Expansive Knowledge and Experience',
-    paragraph: 'Brandon has been teaching ever since he was 14 years old.  He teaches a wide variety of styles like Rock, Blues, Funk, Drumline, Hip-hop, Latin, Jazz, Metal, and Rudements in a family friendly environment'
+    paragraph: 'Brandon has been teaching ever since he was 14 years old.  He teaches a wide variety of styles like Rock, Blues, Funk, Drumline, Hip-hop, Latin, Jazz, and Metal in a family friendly environment'
   };
 
   return (
@@ -159,7 +159,7 @@ const FeaturesTiles = ({
                     Integrity
                   </h4>
                   <p className="m-0 text-sm">
-                    Brandonis so confident you will love his teaching he is offering 1 free lesson to new students.
+                    Brandonis so confident you will love his teaching, he is offering 1 free lesson to new students.
                   </p>
                 </div>
               </div>
@@ -182,7 +182,7 @@ const FeaturesTiles = ({
                     Lessons
                   </h4>
                   <p className="m-0 text-sm">
-                    Lessons can be either 1/2 Hour or an Hour long.  We charge $15 dollars 1/2 hour and $30 and hour.
+                    Lessons can be either 1/2 Hour or an Hour long.  We charge $15 1/2 hour and $30 and hour.
                   </p>
                 </div>
               </div>
