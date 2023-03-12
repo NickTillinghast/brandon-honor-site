@@ -57,15 +57,15 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container-sm">
+      <div className="container-sm" >
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom text-color-primary" data-reveal-delay="200">
+            <h1 className="mt-0 mb-16 reveal-from-bottom text-color-white" data-reveal-delay="200">
               Brandon Frederickson Drum <span className="text-color-secondary">Instructor</span>
             </h1>
-            <div className="container-xs">
-              <h3 className="m-0 reveal-from-bottom" data-reveal-delay="400">Best Lessons for the Best Price</h3>
-              <h3 className="m-0 mb-16 reveal-from-bottom" data-reveal-delay="400">First Lesson is Free</h3>
+            <div className="container-xs" backgroundImage="../../assets/images/drums.jpg">
+              <h3 className="m-0 reveal-from-bottom text-color-white" data-reveal-delay="400">Best Lessons for the Best Price</h3>
+              <h3 className="m-0 mb-16 reveal-from-bottom text-color-white" data-reveal-delay="400">First Lesson is Free</h3>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 {/* <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">

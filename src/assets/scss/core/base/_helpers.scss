@@ -66,6 +66,9 @@
 .text-color-primary {
 	color: black;
 }
+.text-color-white {
+	color: white;
+}
 
 .text-color-secondary {
 	color: red;
@@ -468,6 +471,12 @@ img.has-shadow {
 .pl-32 {
 	padding-left: 32px;
 }
+.pr-96{
+	padding-left: 32px;
+}
+.pl-96 {
+	padding-left: 32px;
+}
 
 // Spacing, spacers
 .spacer-4 {
@@ -568,7 +577,11 @@ img.has-shadow {
 		padding-top: 64px;
 	}	
 }
-
+@include media('>=358px', '<1050px') {
+  .display-none {
+	display: none;
+}
+}
 @include media( '>medium' ) {
 
 	.ta-l-desktop {

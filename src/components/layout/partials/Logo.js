@@ -9,7 +9,7 @@ const Logo = ({
 }) => {
 
   const classes = classNames(
-    'brand',
+    'brand-container ',
     className
   );
 
@@ -18,15 +18,16 @@ const Logo = ({
       {...props}
       className={classes}
     >
-      <h1 className="m-0">
+      <div className='logo  '>
         <Link to="/">
           <Image
-            src={require('./../../../assets/images/Drummersrule.jpg')}
+            src={require('./../../../assets/images/verticalbanner-01.png')}
             alt="Open"
-            width={150}
-            height={150} />
+            width={300}
+            heigth={400}
+            height={1100} />
         </Link>
-      </h1>
+      </div>
     </div>
   );
 }

@@ -6,6 +6,7 @@
 	padding-left: $container--padding__mobile;
 	padding-right: $container--padding__mobile;
 
+
 	@include media( '>small' ) {
 		padding-left: $container--padding__desktop;
 		padding-right: $container--padding__desktop;
@@ -18,10 +19,19 @@
 
 .container-sm {
 	max-width: $container--width-sm + ( $container--padding__desktop * 2 );
-}
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url('../../../images/drums.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	margin-top: 22px;
+  }
+
+
 
 .container-xs {
 	max-width: $container--width-xs + ( $container--padding__desktop * 2 );
+
 }
 
 [class*=container] {

@@ -75,10 +75,7 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Martha L</span>
-                  {/* <span className="text-color-low"> / </span> */}
-                  {/* <span className="testimonial-item-link">
-                    <a href="#0">Rock Drummer</a>
-                  </span> */}
+
                 </div>
               </div>
             </div>
@@ -99,10 +96,7 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Landon D</span>
-                  {/* <span className="text-color-low"> / </span> */}
-                  {/* <span className="testimonial-item-link">
-                    <a href="#0">Rudiment Drummer</a>
-                  </span> */}
+
                 </div>
               </div>
             </div>
@@ -118,15 +112,12 @@ const Testimonial = ({
                   }} />
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — I've been bringing my son to Brandon for drum lessons for about six months now.  It's unbelievable how far his playing has progressed since Brandon started tutoring him.  My son is a quick learner, musically and Brandon has special tailored his program to help my son excel at a quick pace.  Brandon is an excellent drummer and my son always looks forward to coming and learning.  It's a great family friendly atmosphere, with extremely reasonable rates.  When compared with the big box music stores and musical Academies, there is no comparision in the quality of teaching or teachers.  Drummers rule is top notch.  Highly recommended.
+                    — I've been bringing my son to Brandon for drum lessons for about six months now.  It's unbelievable how far his playing has progressed since Brandon started tutoring him.  My son is a quick learner, musically and Brandon has special tailored his program to help my son excel at a quick pace.  Brandon is an excellent drummer and my son always looks forward to coming and learning.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Jonathan</span>
-                  {/* <span className="text-color-low"> / </span> */}
-                  {/* <span className="testimonial-item-link">
-                    <a href="#0">Rock Drummer</a>
-                  </span> */}
+
                 </div>
               </div>
             </div>

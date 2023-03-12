@@ -27,11 +27,18 @@
 }
 
 .header-nav {
-	flex-grow: 1;
+	// flex-grow: 1;
+
+	width: 80%;
 
 	.header-nav-inner {
 		display: flex;
 		flex-grow: 1;
+	}
+	.header-flex {
+		display: flex;
+
+
 	}
 
     ul {

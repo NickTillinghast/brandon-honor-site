@@ -65,6 +65,10 @@
 		top: 14%;
 		width: 70%;
 	  }
+	.brand-container {
+	display: none;
+
+	}
 }
 
 @include media( '>medium' ) {
@@ -107,6 +111,12 @@
 			.tiles-item {
 				padding: $features-tiles-items--padding__desktop * 0.5;
 			}
+		}
+		.banner-container {
+			display: flex;
+			justify-content: center;
+	
+		
 		}
 	}
 }
