@@ -477,6 +477,15 @@ img.has-shadow {
 .pl-96 {
 	padding-left: 32px;
 }
+@include media( '<=medium' ) {
+
+	.pr-107{
+	padding-right: 107px;
+}
+	.pl-107 {
+	padding-left: 107px;
+}
+}
 
 // Spacing, spacers
 .spacer-4 {

@@ -83,9 +83,9 @@ const FeaturesTiles = ({
             {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
               </div> */}
             <div >
-              <SectionHeader data={sectionHeader} className="center-content text-color-primary pl-16 pr-16" />
+              <SectionHeader data={sectionHeader} className="center-content text-color-primary pl-107 pr-107" />
               <iframe className="pl-16 pr-16" width="560" height="315" src="https://www.youtube.com/embed/PEcqvmCHYRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <SectionHeader data={sectionHeader2} className="center-content text-color-primary pl-16 pr-16" />
+              <SectionHeader data={sectionHeader2} className="center-content text-color-primary pl-107 pr-107" />
             </div>
             <div className='display-none '>
               <Logo className='logo' />
