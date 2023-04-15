@@ -21,7 +21,7 @@
 		@if ( $layout == 'inverse' ) {
 			color: color(link-inverse);
 		} @else {
-			color: color(link);
+			color: color(white);
 		}
 		text-decoration: $link-main--decoration;
 

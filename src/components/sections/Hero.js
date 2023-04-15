@@ -6,6 +6,7 @@ import { SectionProps } from '../../utils/SectionProps';
 // import Image from '../elements/Image';
 // import Modal from '../elements/Modal';
 
+
 const propTypes = {
   ...SectionProps.types
 }
@@ -66,6 +67,14 @@ const Hero = ({
             <div className="container-xs" backgroundImage="../../assets/images/drums.jpg">
               <h3 className="m-0 reveal-from-bottom text-color-white" data-reveal-delay="400">Best Lessons for the Best Price</h3>
               <h3 className="m-0 mb-16 reveal-from-bottom text-color-white" data-reveal-delay="400">First Lesson is Free</h3>
+
+              <div className="btn-container">
+                <div className="btn-mybtn">
+                  <a className="btn-brown" href="tel:+16027996086" color={'#ff0000'}>BOOK NOW</a>
+                </div>
+              </div>
+
+
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 {/* <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
