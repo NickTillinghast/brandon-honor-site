@@ -62,7 +62,7 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom text-color-white" data-reveal-delay="200">
-              Brandon Frederickson Drum <span className="text-color-secondary">Instructor</span>
+              Brandon Frederickson Drum <span className="text-color-white">Instructor</span>
             </h1>
             <div className="container-xs" backgroundImage="../../assets/images/drums.jpg">
               <h3 className="m-0 reveal-from-bottom text-color-white" data-reveal-delay="400">Best Lessons for the Best Price</h3>
