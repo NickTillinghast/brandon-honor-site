@@ -19,8 +19,8 @@
 
 .container-sm {
 	max-width: $container--width-sm + ( $container--padding__desktop * 2 );
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url('../../../images/drums.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    background-image: url('https://res.cloudinary.com/dqpatwz6c/image/upload/v1682195405/maix83ec3lbuprtnao4x.jpg');
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
