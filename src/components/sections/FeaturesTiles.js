@@ -169,7 +169,7 @@ const FeaturesTiles = ({
                   Lessons
                 </h4>
                 <p className="m-0 text-sm">
-                  Lessons can be either 1/2 Hour or an Hour long.  We charge $15 1/2 hour and $30 and hour.
+                  Lessons can be either 1/2 Hour or an Hour long.  We charge $20 1/2 hour and $35 and hour.
                 </p>
               </div>
             </div>
