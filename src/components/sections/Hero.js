@@ -65,7 +65,6 @@ const Hero = ({
               Brandon Frederickson Drum <span className="text-color-white">Instructor</span>
             </h1>
             <div className="container-xs" >
-              <h3 className="m-0 reveal-from-bottom text-color-white" data-reveal-delay="400">Best Lessons for the Best Price</h3>
               <h3 className="m-0 mb-16 reveal-from-bottom text-color-white" data-reveal-delay="400">First Lesson is Free</h3>
 
               <div className="btn-container">
